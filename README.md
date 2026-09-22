@@ -11,8 +11,15 @@ This installs Homebrew and Xcode Command Line Tools, clones this repo to `~/.dot
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/jeremyjkerby/dotfiles/main/bootstrap.sh)"
 ```
  
-3. Apply system preferences (run once):
+3. Apply system preferences:
 ```bash
 bash ~/.dotfiles/macos.sh
 ```
  
+4. Fill in your Git identity:
+ 
+```ini
+[user]
+    name = [ADD NAME]
+    email = [ADD EMAIL]
+```
