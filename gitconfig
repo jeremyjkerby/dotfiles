@@ -1,0 +1,12 @@
+[user]
+    name = [ADD NAME]
+    email = [ADD EMAIL]
+[init]
+    defaultBranch = main
+[core]
+    excludesfile = ~/.gitignore_global
+    editor = vim
+[pull]
+    rebase = true
+[push]
+    autoSetupRemote = true
