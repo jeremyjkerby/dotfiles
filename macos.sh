@@ -93,5 +93,5 @@ defaults write com.apple.screencapture type -string "png"
 # ===
 # Apply changes
 # ===
-killall Finder Dock SystemUIServer 2>/dev/null || true
+killall Finder Dock SystemUIServer ControlCenter 2>/dev/null || true
 echo "Done. Some changes need a logout or restart to fully apply."
