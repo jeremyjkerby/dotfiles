@@ -27,3 +27,6 @@ fi
 
 # Install everything in the Brewfile
 brew bundle --verbose --file="$DIR/Brewfile"
+ 
+# Symlink vimrc so ~/.vimrc points at the repo
+ln -sf "$DIR/vimrc" ~/.vimrc
