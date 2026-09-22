@@ -26,4 +26,4 @@ else
 fi
 
 # Install everything in the Brewfile
-brew bundle --file="$DIR/Brewfile"
+brew bundle --verbose --file="$DIR/Brewfile"
