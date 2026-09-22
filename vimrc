@@ -20,7 +20,7 @@ set backspace=indent,eol,start
 " UI
 " ===
 syntax on
-silent! colorscheme dracula
+silent! colorscheme retrobox
 " Show filename in the title bar
 set title
 " Line numbers in the gutter
