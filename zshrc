@@ -13,8 +13,8 @@ export CLICOLOR=1
 # ===
 # Prompt
 # ===
-# user@host  current-dir  %
-PROMPT='%F{green}%n@%m%f %F{blue}%1~%f %# '
+# time  user@host  current-dir  %
+PROMPT='%F{yellow}%T%f %F{green}%n@%m%f %F{blue}%1~%f %# '
 
 # ===
 # History
