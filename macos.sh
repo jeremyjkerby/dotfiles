@@ -67,7 +67,7 @@ if command -v dockutil >/dev/null; then
     "/Applications/Postman.app" \
     "/Applications/Figma.app" \
     "/Applications/Obsidian.app" \
-    "/System/Applications/Safari.app" \
+    "/Applications/Safari.app" \
     "/Applications/WhatsApp.app" \
     "/System/Applications/App Store.app" \
     "/System/Applications/System Settings.app"; do
@@ -79,7 +79,7 @@ fi
 # Menu
 # ===
 # Show battery percentage in the menu bar
-defaults write com.apple.controlcenter BatteryShowPercentage -bool true
+defaults -currentHost write com.apple.controlcenter BatteryShowPercentage -bool true
 
 # ===
 # Screenshots
