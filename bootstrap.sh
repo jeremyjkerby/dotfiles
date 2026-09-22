@@ -31,3 +31,4 @@ brew bundle --verbose --file="$DIR/Brewfile"
 # Symlink dotfiles point at the repo
 ln -sf "$DIR/vimrc" ~/.vimrc
 ln -sf "$DIR/zshrc" ~/.zshrc
+ln -sf "$DIR/gitconfig" ~/.gitconfig
