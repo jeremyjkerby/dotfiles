@@ -28,5 +28,6 @@ fi
 # Install everything in the Brewfile
 brew bundle --verbose --file="$DIR/Brewfile"
  
-# Symlink vimrc so ~/.vimrc points at the repo
+# Symlink dotfiles point at the repo
 ln -sf "$DIR/vimrc" ~/.vimrc
+ln -sf "$DIR/zshrc" ~/.zshrc
