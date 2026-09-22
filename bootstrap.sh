@@ -32,3 +32,4 @@ brew bundle --verbose --file="$DIR/Brewfile"
 ln -sf "$DIR/vimrc" ~/.vimrc
 ln -sf "$DIR/zshrc" ~/.zshrc
 ln -sf "$DIR/gitconfig" ~/.gitconfig
+ln -sf "$DIR/gitignore_global" ~/.gitignore_global
