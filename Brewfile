@@ -20,6 +20,8 @@ brew "ncdu"
 brew "dockutil"
 brew "gh"
 brew "jq"
+brew "tmux"
+brew "icloudpd"
 brew "imagemagick"
 
 # ===
@@ -47,6 +49,7 @@ cask "obsidian"
 cask "raycast"
 cask "rectangle"
 cask "google-drive"
+cask "tailscale"
 
 # ===
 # Browsers
